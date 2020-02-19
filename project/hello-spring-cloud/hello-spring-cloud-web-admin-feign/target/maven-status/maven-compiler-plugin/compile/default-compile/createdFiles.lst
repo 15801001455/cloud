@@ -1,0 +1,3 @@
+com\funtl\hello\spring\cloud\web\admin\feign\service\AdminService.class
+com\funtl\hello\spring\cloud\web\admin\feign\WebAdminFeignApplication.class
+com\funtl\hello\spring\cloud\web\admin\feign\controller\AdminController.class
