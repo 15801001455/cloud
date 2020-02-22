@@ -7,7 +7,6 @@ spring:
       server:
         git:
           uri: git@github.com:15801001455/cloud.git
-          #uri: https://github.com/15801001455/cloud.git
           search-paths: project/hello-spring-cloud/git-manage-config #git项目下的搜索目录
           force-pull: true
 
