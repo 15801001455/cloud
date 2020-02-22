@@ -15,14 +15,6 @@ feign:
   hystrix:
     enabled: true
 
-hystrix:
-  command:
-    default:
-      execution:
-        isolation:
-          thread:
-            timeoutInMilliseconds: 5000  #熔断超时时间
-
 eureka:
   client:
     serviceUrl:

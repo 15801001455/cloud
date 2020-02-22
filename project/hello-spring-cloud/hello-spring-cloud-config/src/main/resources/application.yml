@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: hello-spring-cloud-config
+  cloud:
+    config:
+      label: master #github分支
+      server:
+        git:
+          uri: git@github.com:15801001455/cloud.git
+          search-paths: project/git-manage-config/ #git项目下的搜索目录
+          force-pull: true
+
+server:
+  port: 8888 #默认就是这个端口,不能在application.yml这个文件中进行修改
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/ #也是要连接eureka
